@@ -22,18 +22,37 @@
        }
 
        h2{
+       /* text-align: center; */
        color:orange;
        border-bottom: 3px solid orange;
-       padding-bottom: 10px;
+       padding-bottom: 10px; 
        }
-       
+       .parent{
+        /* border: 10px solid green; */
+        width: 100%;
+        display: flex;
+        background-color: white; 
+       }
+       .firstchild{
+        width: 30%;
+        padding: 20px;
+       }
+       .secondchild{
+        width: 30%;
+        padding: 20px;
+       }
+       .thirdchild{
+        width: 40%;
+        padding: 20px;
+    }
+
     </style>
 </head>
 <body>
 
     <h1>Daniel Obioha's Project</h1>
     <h2>Real project now</h2>
-    <p>My very first sucessful github push.</p>
+    <p>My very first successful github push.</p>
     <h2>Details of the Project below</h2>
     <p>What we have learnt so far</p>
 
@@ -55,6 +74,30 @@
           <li>I like Pizza</li>
           <li>Learning is fun</li>
         </ol>
+        <div class="parent">
+            <div class="firstchild">
+                <p>My name is Daniel and I love coding</p>
+                <h2>My favourite things</h2>
+            </div>
+
+            <div class="secondchild">
+                <h2>Details of the Project below</h2>
+                <p>What we have learnt so far</p>
+            </div>
+
+            <div class="thirdchild">
+               <h2>Real project now</h2>
+               <p>My very first successful github push.</p>
+               <ul>
+                    <li>Create a GitHub account</li>
+                    <li>Revise Git commands</li>
+                    <li>Configure Git to connet to Github</li>
+                    <li>Fixed Git and Github codes</li>
+                    <li>Updated our Project file and pushed to Github</li>
+                    <li>And this List will update as it progress</li>
+               </ul>
+            </div>
+        </div>
         <button> Click Me! </button>
         <footer>
 <p>Made with love from 💕 Daniel Obioha</p>
