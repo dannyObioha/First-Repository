@@ -1,0 +1,53 @@
+*{
+padding: 0;
+margin: 0;
+}
+
+body{
+background-color: grey;
+}
+
+.container{
+width: 80%;
+background-color: white;
+margin: auto;
+text-align: center;
+/* text-transform: Uppercase; */
+}
+
+ul{
+display: flex;
+text-align: center;
+list-style-type: none;
+padding: 0, ;
+margin: 0;
+}
+
+.Inner-container{
+width: 100%;
+background-color: cyan;
+display: flex;
+flex: flex-wrap;
+}
+
+.Inner-two{
+width: 50%;
+border: 1px solid red;
+}
+
+img{
+width: 200px;
+border-radius: 25px;
+height: 200px;
+}
+
+h2, li{
+text-transform: Uppercase;
+}
+
+ul li a{
+text-align: center;
+display: block;
+text-decoration: none;
+padding: 10px 20px;
+}
