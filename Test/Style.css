@@ -33,6 +33,7 @@ flex: flex-wrap;
 .Inner-two{
 width: 50%;
 border: 1px solid red;
+padding: 20px 0px;
 }
 
 img{
@@ -50,4 +51,19 @@ text-align: center;
 display: block;
 text-decoration: none;
 padding: 10px 20px;
+}
+
+
+.Inner-two ol li{
+/* list-style-type: circle; */
+text-transform: lowercase;
+display: list-item;
+text-align: justify;
+padding: 15px 10px;
+}
+
+.Inner-two ul, .Inner-two li{
+    list-style-type: none;
+    display: block;
+    text-transform: lowercase;
 }
